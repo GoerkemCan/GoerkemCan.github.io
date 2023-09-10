@@ -47,37 +47,30 @@
                 <li><strong>Related</strong>: Prototyping, Automatization, Coding, Rebar Production, C++, MSc, Construction Robotics </li>
                 <li><strong>Github URL</strong>: <a href="https://github.com/GoerkemCan/LimenosSortXpert" target="_blank">Project Link</a></li>
               </ul>
-
-                <p>
-                  Intro:
-                </p>
+              <h2 style="color:#12d640">Intro</h2>
                 <p style="text-align:left;">
                   <img src="assets/img/project/limenos/intro.png" class="img-fluid" alt="">
                 </p>
                 <p>
                   Limenos: Rebar SortXpert is a solution inspired by research on rebar automation approaches. During a visit to the precast factory of Florack Bauunternehmung GmbH in Heinsberg, Germany, a weakness was discovered in the sorting stage of bent rebar stirrups. The existing machine could not effectively sort the bent rebars, which led to them either falling to the ground to be sorted later, or an operator having to wait for the machine to finish bending and then collect the output one by one. Motivated by this observation, we developed a system that ensures the sorting of stirrups according to their shape. Limenos: Rebar SortXpert can improve efficiency, accuracy and safety in the assembly of rebar cages. 
                 </p>
-                <p>
-                  Demo:
-                </p>
+              
+                <h2 style="color:#12d640">Demonstration:</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/UDSvr50i1Js?si=a_yrsVs_8G2nP5vR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>
-                  Development:
-                </p>
+                
+                <h2 style="color:#12d640">Development</h2>
                 <p>
                   The development journey started with a clear vision and a strategic approach. Initially, the plan involved utilizing machine vision and machine learning for rebar identification in a sorting system. However, upon further research, it was concluded that the pre-calculated and grouped nature of the bent rebars meant that visual detection was not necessary, so the focus shifted to improving the sorting system itself.
                   Inspired by a rotating machine, we prototyped our solution by integrating a more intelligent rotation logic into the NodeMCU board’s code. This enhanced the rotation sorter’s capabilities. The hardware setup includes  a power supply, stepper motor, motor driver, LED lights, display, and a limit switch. The machine signals are emulated with the help of Node-RED, allowing the NodeMCU to interpret and respond accordingly.
                   Through iterative improvements, this machine has the potential to evolve into an efficient sorting system that enchances production.
                 </p>
-                <p> 
-                  Results:
-                </p>
+
+                <h2 style="color:#12d640">Results</h2>
                 <p>
                   The NodeMCU board, that has Wi-Fi and MQTT integration, plays a crucial role in initiating and controlling the sorting process. Once the NodeMCU establishes a connection with Wi-Fi and MQTT, indicated by a green LED, it receives commands for rebar sorting. The NodeMCU dynamically determines the appropriate movement to sort the rebar types using motor-driven rotations. Real-time updates of the processed rebar type are displayed, while a yellow LED indicates the need to delay signal transmission during movement. Additionally, a red LED illuminates when the end effector reaches the home position for the first time. The integration of NodeMCU, Node-RED, Wi-Fi, and MQTT enables efficient sorting of rebar, displaying visual indicators for connection status and confirmation of the home position.
                 </p>
-                <p>
-                  Conclusion:
-                </p>
+
+                <h2 style="color:#12d640">Conclusion</h2>
                 <p>
                   Our project aims to automate the rebar assembly process by sorting rebar stirrups. The prototype interprets the bent shape from the rebar bending machine and rotates it for storage, enabling sorting of rebar by shape. The prototype's adaptable nature allows for integration into other systems, such as conveyor belt systems or robotic solutions. With further development, Limenos: Rebar SortXpert has the potential to enhance efficiency, accuracy, and safety in rebar cage assembly. For prefabrication companies, this translates to streamlined operations, reduced labour costs, and increased productivity.
                 </p>
